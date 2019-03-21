@@ -1,9 +1,12 @@
 require("dotenv").config();
+
 var fs = require("fs");
 
 var keys = require("./keys.js");
 
+// npm package inclusions
 var spotify = new Spotify(keys.spotify);
+var axios = require("axios");
 
 var inputString = spotify.process.argv;
 
