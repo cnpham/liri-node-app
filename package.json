@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "The LIRI Bot app utilizes the Spotify API in order to execute specific commands which will\r access the Spotify database of songs, movies, etc.",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.18.0",
